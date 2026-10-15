@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mellowla | Tast it Slowly</title>
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="filter" class="filter"></div>
+    <header>
+      <div class="header-inner">
+        <a href="#home" class="logo" aria-label="Go to Home"
+          ><i class="fa-solid fa-mug-hot"></i> Mellowla.</a
+        >
+
+        <nav id="primary-nav" class="primary-nav">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#menu" class="nav-link">Menu</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Mobile Nav -->
+        <nav id="mobile-nav" class="mobile-nav">
+          <button id="close-nav" class="close-nav">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#menu" class="nav-link">Menu</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#contact" class="nav-link">Contact</a>
+          <a href="#contact" class="header-cta">Visit us</a>
+        </nav>
+
+        <a href="#contact" class="header-cta">Visit us</a>
+
+        <!-- Open Mobile nav -->
+        <button id="open-nav" class="open-nav">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-inner">
+          <div class="hero-content">
+            <div class="label reveal">Good coffee. No hurry.</div>
+            <h1 class="reveal">The world can wait. <br />Taste it Slowly.</h1>
+            <p class="hero-description reveal">
+              Life moves fast. Mornings turn into afternoons, days fill up, and
+              we forget to simply be. At Mellowla, there's no hurry. Just good
+              coffee, warm bakes, and a moment that's entirely yours.
+            </p>
+            <div class="cta reveal">
+              <a href="#contact" class="hero-cta"
+                >Take it Slow <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+
+              <a href="#menu" class="hero-cta right">Explore Our Menu</a>
+            </div>
+          </div>
+
+          <div class="scroll">
+            <div>
+              <i class="fa-solid fa-arrow-down"> </i>
+            </div>
+            Scroll down
+          </div>
+        </div>
+      </section>
+      <section id="menu" class="featured">
+        <div class="featured-inner">
+          <div class="featured-content reveal">
+            <div class="left">
+              <div class="section-label">Our Signature Menu</div>
+              <h2>Our Favorites</h2>
+              <a href="#menu" class="featured-cta"
+                >View Full Menu <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+
+            <div class="right">
+              <div class="card">
+                <img src="./assets/Iced-Latte.png" alt="Iced Latte image" />
+                <div class="card-info">
+                  <h3>Cloud Nine Latte</h3>
+                  <p>
+                    Smooth espresso, creamy milk, and a gentle hint of vanilla.
+                  </p>
+                  <span class="price">$4.20</span>
+                </div>
+              </div>
+              <div class="card">
+                <span class="menu-label">MOST LOVED</span>
+                <img
+                  src="./assets/hot-buttur.jpg"
+                  alt="Well baked buttur hug image"
+                />
+
+                <div class="card-info">
+                  <h3>Butter Hug Croissant</h3>
+                  <p>Golden, delicate, and beautifully buttery.</p>
+                  <span class="price">$3.00</span>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="./assets/midnight-brown.jpg"
+                  alt="Chocolate brownies image"
+                />
+
+                <div class="card-info">
+                  <h3>Midnight Brownie</h3>
+                  <p>
+                    Deep chocolate, a soft fudgy center, and just enough
+                    sweetness.
+                  </p>
+                  <span class="price">$3.50</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mobile -->
+            <a href="#menu" class="featured-cta mobile"
+              >View Full Menu <i class="fa-solid fa-arrow-right-long"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="about-inner">
+          <div class="about-content reveal">
+            <div class="left">
+              <img src="./assets/about.jpg" alt="Wide image of mellowla cafe" />
+            </div>
+
+            <div class="right">
+              <div class="section-label">About Mellowla</div>
+              <h2>Not just coffee. <br />A moment for yourself.</h2>
+
+              <p>
+                Some days call for a little less rushing and a little more
+                living. At Mellowla, we believe the simplest things can make the
+                best moments — a perfectly made coffee, something warm from the
+                oven, and a place where you can simply be.
+              </p>
+
+              <a href="#about" class="about-cta"
+                >Our Story <i class="fa-solid fa-arrow-right-long"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="why" class="why">
+        <div class="inner reveal">
+          <div class="section-label">WHY Mellowla</div>
+          <h2>Little details. Lasting moments.</h2>
+          <div class="content">
+            <div class="card">
+              <i class="fa-solid fa-mug-hot"></i>
+              <h3>Made with care</h3>
+              <p>Thoughtfully prepared, with quality in every cup.</p>
+            </div>
+
+            <div class="card">
+              <i class="fa-brands fa-pagelines"></i>
+              <h3>Space to breathe</h3>
+              <p>A welcoming corner to unwind, reconnect, or simply be.</p>
+            </div>
+
+            <div class="card">
+              <i class="fa-solid fa-burger"></i>
+              <h3>Fresh little joys</h3>
+              <p>Comforting bakes and simple treats worth slowing down for.</p>
+            </div>
+
+            <div class="card">
+              <i class="fa-solid fa-heart"></i>
+              <h3>A place for everyone</h3>
+              <p>Meet a friend, bring a book, or enjoy a quiet moment alone.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="testimonials">
+        <div class="inner">
+          <div class="content reveal">
+            <div class="top">
+              <div>
+                <div class="section-label">Kind Words</div>
+                <h2>What Our Guests Say</h2>
+              </div>
+
+              <div class="action">
+                <button id="prev-btn">
+                  <i class="fa-solid fa-arrow-left-long"></i>
+                </button>
+                <button id="next-btn">
+                  <i class="fa-solid fa-arrow-right-long"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="bottom">
+              <div class="left">
+                <p class="quote" id="quote">
+                  <span>“</span>
+                  The kind of place where one coffee turns into a whole peaceful
+                  afternoon. Absolutely love the atmosphere.
+                </p>
+
+                <div class="guest">
+                  <img src="" alt="guest image" id="guest-img" />
+                  <div>
+                    <p id="guest-name">Sophia Martinez</p>
+                    <span id="guest-role">Travel & Food Photographer</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="right">
+                <div>
+                  <img
+                    src="./assets/testi.jpg"
+                    alt="Beautiful cafe photo"
+                    id="guest-shot"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="action mobile">
+              <button id="prev-bt">
+                <i class="fa-solid fa-arrow-left-long"></i>
+              </button>
+              <button id="next-bt">
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="inner">
+          <div class="content reveal">
+            <div class="form">
+              <form action="submit" method="get">
+                <div class="field">
+                  <label for="name" hidden>Your name</label>
+                  <input
+                    name="name"
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                    required
+                  />
+                </div>
+
+                <div class="field">
+                  <label for="email" hidden>Email address</label>
+                  <input
+                    name="email"
+                    type="email"
+                    id="email"
+                    placeholder="you@example.com"
+                    required
+                  />
+                </div>
+                <div class="group">
+                  <div class="field">
+                    <label for="date" hidden>Date</label>
+                    <input
+                      name="date"
+                      type="date"
+                      id="date"
+                      placeholder="Choose date"
+                      required
+                    />
+                  </div>
+                  <div class="field">
+                    <label for="time" hidden>Time</label>
+                    <input
+                      name="time"
+                      type="time"
+                      id="time"
+                      placeholder="Choose date"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div class="field">
+                  <p>Number of guests</p>
+
+                  <div class="radio-grid">
+                    <div class="radio">
+                      <input
+                        type="radio"
+                        name="guest"
+                        value="Just me"
+                        id="guest-1"
+                      />
+                      <label for="guest-1">Just me</label>
+                    </div>
+                    <div class="radio">
+                      <input
+                        type="radio"
+                        name="guest"
+                        value="2 guests"
+                        id="guest-2"
+                      />
+                      <label for="guest-2">2 guests</label>
+                    </div>
+                    <div class="radio">
+                      <input
+                        type="radio"
+                        name="guest"
+                        value="3-4 guests"
+                        id="guest-3"
+                      />
+                      <label for="guest-3">3-4 guests</label>
+                    </div>
+                    <div class="radio">
+                      <input
+                        type="radio"
+                        name="guest"
+                        value="5+ guests"
+                        id="guest-4"
+                      />
+                      <label for="guest-4">5+ guests</label>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <label for="msg" hidden>Special requests (optional)</label>
+                  <textarea
+                    name="message"
+                    id="msg"
+                    placeholder="Window table, birthday, meeting..."
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                  Reserve a Table
+                </button>
+              </form>
+            </div>
+
+            <div class="contact-data">
+              <div class="section-label">Visit us</div>
+              <h2>Your table is waiting.</h2>
+              <p>Need a coffee break? Come find your cozy corner.</p>
+
+              <div class="contact-grid">
+                <div class="column">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <div>
+                    <h3>Find us</h3>
+                    <p>123 Mapx Street, New York</p>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <i class="fa-regular fa-clock"></i>
+                  <div>
+                    <h3>Opening hours</h3>
+                    <p>Mon - Fri: 8AM - 7PM</p>
+                    <p>Sat - Sun: 9AM - 10PM</p>
+                  </div>
+                </div>
+
+                <div class="column">
+                  <i class="fa-regular fa-envelope"></i>
+                  <div>
+                    <h3>Say hello</h3>
+                    <p>hello@mellowla.cafe</p>
+                    <p>11 235 5621</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="inner reveal">
+        <div class="top">
+          <div class="left">
+            <a href="#home" class="logo" aria-label="Go to Home"
+              ><i class="fa-solid fa-mug-hot"></i> Mellowla.</a
+            >
+            <p>Good coffee. No hurry. Just here.</p>
+            <p>
+              A little corner of calm, made for slow mornings, warm bakes, and
+              moments worth savouring.
+            </p>
+          </div>
+          <div class="right">
+            <img src="./assets/bac.jpg" alt="An image of Mellowla cafe" />
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="left">
+            <h3>Explore</h3>
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#menu" class="nav-link">Menu</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </div>
+          <div class="mid">
+            <h3>Say hello</h3>
+            <p>hello@mellowla.cafe</p>
+            <p>11 235 5621</p>
+          </div>
+          <div class="right">
+            <h3>Follow us</h3>
+            <a
+              href="https://facebook.com"
+              class="nav-link"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-facebook-f"></i> Facebook</a
+            >
+            <a
+              href="https://instagram.com"
+              class="nav-link"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-instagram"></i> Instagram</a
+            >
+            <a
+              href="https://youtube.com"
+              class="nav-link"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-youtube"></i> Youtube</a
+            >
+            <a
+              href="https://tiktok.com"
+              class="nav-link"
+              target="_blank"
+              rel="noopener"
+              ><i class="fa-brands fa-tiktok"></i> Tiktok</a
+            >
+          </div>
+        </div>
+
+        <div class="copyright">© 2026 Mellowla. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <script type="module" src="./scripts.js"></script>
+  </body>
+</html>
